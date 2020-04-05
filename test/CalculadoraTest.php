@@ -11,6 +11,11 @@ class CalculadoraTest extends TestCase{
         $Calculadora = new Calculadora();
         $this->assertEquals($Calculadora->Suma(2,2), 4);
         }
+
+        public function testResta(){
+            $Calculadora = new Calculadora();
+            $this->assertEquals($Calculadora->Resta(2,2), 0);
+            }
 }
 
 

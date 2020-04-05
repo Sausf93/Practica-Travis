@@ -8,6 +8,11 @@ class Calculadora{
 
         return $valor1+$valor2;
     }
+
+    public function Resta($valor1, $valor2){
+
+        return $valor1-$valor2;
+    }
 }
 
 ?>
