@@ -13,6 +13,11 @@ class Calculadora{
 
         return $valor1-$valor2;
     }
+
+    public function Multiplicacion($valor1, $valor2){
+
+        return $valor1*$valor2;
+    }
 }
 
 ?>

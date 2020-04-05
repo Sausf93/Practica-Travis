@@ -16,6 +16,11 @@ class CalculadoraTest extends TestCase{
             $Calculadora = new Calculadora();
             $this->assertEquals($Calculadora->Resta(2,2), 0);
             }
+
+            public function testMultiplicacion(){
+                $Calculadora = new Calculadora();
+                $this->assertEquals($Calculadora->Multiplicacion(2,3), 6);
+                }
 }
 
 
