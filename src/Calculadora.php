@@ -18,6 +18,11 @@ class Calculadora{
 
         return $valor1*$valor2;
     }
+
+    public function Division($valor1, $valor2){
+
+        return $valor1/$valor2;
+    }
 }
 
 ?>
