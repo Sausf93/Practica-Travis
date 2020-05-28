@@ -10,13 +10,13 @@ before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
 script:
-  - docker build -t sausf93/Practica-Travis:0.0.1 .
+  - docker build -t sausf/practica-travis:0.0.1 .
 
 deploy:
   - provider: script
     script:
       # push to dockerhub
-      docker push sausf/Practica-Travis;
+      docker push sausf/practica-travis:0.0.1;
     on:
       branch: master
 
